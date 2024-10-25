@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 async function fetchCourses() {
-  const response = await fetch("http://localhost:3000/api/courses");
+  // const response = await fetch("http://localhost:3000/api/courses");
+  const response = await fetch("/api/courses");
+
   return response.json();
 }
 
@@ -26,3 +28,10 @@ async function CoursesPage() {
 }
 
 export default CoursesPage;
+// import React from "react";
+
+// function page() {
+//   return <div>CoursesPage</div>;
+// }
+
+// export default page;

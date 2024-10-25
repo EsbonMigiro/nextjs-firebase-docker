@@ -10,6 +10,7 @@ function Header() {
           <Link href="/about">About</Link>
           <Link href="/about/team">Team</Link>
           <Link href="/codes/repos">Code</Link>
+          <Link href="/firebaseStuff">firebase</Link>
         </div>
       </div>
     </header>
